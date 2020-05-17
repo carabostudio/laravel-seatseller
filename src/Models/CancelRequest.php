@@ -4,6 +4,10 @@
 namespace Carabostudio\Seatseller\Models;
 
 
+/**
+ * Class CancelRequest
+ * @package Carabostudio\Seatseller\Models
+ */
 class CancelRequest
 {
 

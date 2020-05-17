@@ -4,23 +4,51 @@
 namespace Carabostudio\Seatseller\Models;
 
 
+/**
+ * Class BlockTicket
+ * @package Carabostudio\Seatseller\Models
+ */
 class BlockTicket
 {
 
+    /**
+     * @var string
+     */
     public string $source;
 
+    /**
+     * @var string
+     */
     public string $destination;
 
+    /**
+     * @var string
+     */
     public string $availableTripId;
 
+    /**
+     * @var string
+     */
     public string $boardingPointId;
 
+    /**
+     * @var string
+     */
     public string $droppingPointId;
 
+    /**
+     * @var string
+     */
     public string $operator;
 
+    /**
+     * @var string
+     */
     public string $bookingDevice;
 
+    /**
+     * @var array
+     */
     public array $inventoryItems;
 
     /**

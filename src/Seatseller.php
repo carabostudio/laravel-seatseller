@@ -4,6 +4,7 @@
 namespace Carabostudio\Seatseller;
 
 
+use Carabostudio\Seatseller\Exceptions\ConfigurationException;
 use Carabostudio\Seatseller\Models\BlockTicket;
 use Carabostudio\Seatseller\Models\CancelRequest;
 use Carbon\Carbon;
@@ -16,6 +17,10 @@ use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Subscriber\Oauth\Oauth1;
 use Illuminate\Http\JsonResponse;
 
+/**
+ * Class Seatseller
+ * @package Carabostudio\Seatseller
+ */
 class Seatseller
 {
 
@@ -29,6 +34,7 @@ class Seatseller
      *
      * setting up guzzle client for seatseller
      *
+     * @throws ConfigurationException
      */
     public function __construct()
     {
@@ -36,7 +42,9 @@ class Seatseller
         $env = config('seatseller.environment');
         $credentials = config('seatseller.credentials.' . $env);
 
-        // todo check credentials
+        if (!$credentials['consumer_key'] || !$credentials['consumer_secret']) {
+            throw new ConfigurationException('Credentials are required to create a Client');
+        }
 
         $consumer_key = $credentials['consumer_key'];
         $consumer_secret = $credentials['consumer_secret'];
@@ -230,8 +238,6 @@ class Seatseller
     public function blockTicket(BlockTicket $blockTicket)
     {
         try {
-
-            // todo add with custom classes
 
             $sourcesResponse = $this->client->post($this->url('blockTicket'), [
                 'auth' => 'oauth',

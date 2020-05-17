@@ -5,6 +5,10 @@ namespace Carabostudio\Seatseller;
 use Carabostudio\Seatseller\Facades\SeatsellerFacade;
 use Illuminate\Support\ServiceProvider;
 
+/**
+ * Class SeatsellerServiceProvider
+ * @package Carabostudio\Seatseller
+ */
 class SeatsellerServiceProvider extends ServiceProvider
 {
     /**
