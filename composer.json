@@ -1,11 +1,18 @@
 {
     "name": "carabostudio/laravel-seatseller",
     "description": "Laravel wrapper package for seatseller api",
+    "keywords": [
+        "laravel-seatseller",
+        "seatseller"
+    ],
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Axay Gadekar",
-            "email": "axayhg@gmail.com"
+            "email": "axayhg@gmail.com",
+            "homepage": "https://axaygadekar.me",
+            "role": "Developer"
         }
     ],
     "require": {
