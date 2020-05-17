@@ -18,10 +18,10 @@ use GuzzleHttp\Subscriber\Oauth\Oauth1;
 use Illuminate\Http\JsonResponse;
 
 /**
- * Class Seatseller
- * @package Carabostudio\Seatseller
+ * Class SeatsellerManager
+ * @package Carabostudio\SeatsellerManager
  */
-class Seatseller
+class SeatsellerManager
 {
 
     /**
@@ -30,7 +30,7 @@ class Seatseller
     private GuzzleClient $client;
 
     /**
-     * Seatseller constructor.
+     * SeatsellerManager constructor.
      *
      * setting up guzzle client for seatseller
      *
@@ -69,7 +69,7 @@ class Seatseller
     }
 
     /**
-     * Seatseller Cities
+     * SeatsellerManager Cities
      *
      * @return JsonResponse
      */
@@ -91,7 +91,7 @@ class Seatseller
     }
 
     /**
-     * Seatseller Sources Cities
+     * SeatsellerManager Sources Cities
      *
      * @return JsonResponse
      */
@@ -113,7 +113,7 @@ class Seatseller
     }
 
     /**
-     * Seatseller Destinations Cities By Source
+     * SeatsellerManager Destinations Cities By Source
      *
      * @param string $source
      * @return JsonResponse
@@ -174,7 +174,7 @@ class Seatseller
     }
 
     /**
-     * Seatseller Boarding Point Detail
+     * SeatsellerManager Boarding Point Detail
      *
      * @param string $boardingPointId
      * @param string $tripId
@@ -203,7 +203,7 @@ class Seatseller
     }
 
     /**
-     * Seatseller Trip Detail / Seats Detail
+     * SeatsellerManager Trip Detail / Seats Detail
      *
      * @param string $tripId
      * @return JsonResponse
@@ -415,7 +415,7 @@ class Seatseller
     }
 
     /**
-     * Getting Seatseller Url
+     * Getting SeatsellerManager Url
      *
      * @param string $uri
      * @param array|null $query

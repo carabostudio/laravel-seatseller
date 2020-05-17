@@ -5,10 +5,10 @@ namespace Carabostudio\Seatseller\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * Class SeatsellerFacade
- * @package Carabostudio\Seatseller\Facades
+ * Class Seatseller
+ * @package Carabostudio\SeatsellerManager\Facades
  */
-class SeatsellerFacade extends Facade
+class Seatseller extends Facade
 {
 
     /**

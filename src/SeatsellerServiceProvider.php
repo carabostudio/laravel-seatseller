@@ -2,12 +2,11 @@
 
 namespace Carabostudio\Seatseller;
 
-use Carabostudio\Seatseller\Facades\SeatsellerFacade;
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class SeatsellerServiceProvider
- * @package Carabostudio\Seatseller
+ * @package Carabostudio\SeatsellerManager
  */
 class SeatsellerServiceProvider extends ServiceProvider
 {
@@ -18,13 +17,7 @@ class SeatsellerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-
-        $this->app->bind('seatseller', function () {
-            return new Seatseller();
-        });
-
-        $this->app->alias('seatseller', SeatsellerFacade::class);
-
+        $this->app->bind('seatseller', SeatsellerManager::class);
     }
 
     /**

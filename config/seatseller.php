@@ -4,7 +4,7 @@ return [
 
 
     /**
-     * Seatseller environment
+     * SeatsellerManager environment
      *
      * Supported: "dev", "production"
      */
@@ -12,7 +12,7 @@ return [
 
 
     /**
-     * Seatseller credentials
+     * SeatsellerManager credentials
      */
     'credentials' => [
 

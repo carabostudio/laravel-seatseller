@@ -20,7 +20,7 @@ Once installed, if you are not using automatic package discovery, then you need 
 You can also optionally alias our facade:
 
 ```php
-'Seatseller' => Carabostudio\Seatseller\Facades\SeatsellerFacade::class,
+'SeatsellerManager' => Carabostudio\Seatseller\Facades\Seatseller::class,
 ```
 
 

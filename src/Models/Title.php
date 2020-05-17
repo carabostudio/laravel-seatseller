@@ -6,7 +6,7 @@ namespace Carabostudio\Seatseller\Models;
 
 /**
  * Interface Title
- * @package Carabostudio\Seatseller\Models
+ * @package Carabostudio\SeatsellerManager\Models
  */
 interface Title
 {

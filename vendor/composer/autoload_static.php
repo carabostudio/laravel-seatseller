@@ -36,7 +36,7 @@ class ComposerStaticInit1785ba133cd26d45ce57b15186ea34cb
         ),
         'C' =>
         array (
-            'Carabostudio\\SeatsellerFacade\\' => 24,
+            'Carabostudio\\Seatseller\\' => 24,
         ),
     );
 
@@ -73,7 +73,7 @@ class ComposerStaticInit1785ba133cd26d45ce57b15186ea34cb
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
-        'Carabostudio\\SeatsellerFacade\\' =>
+        'Carabostudio\\Seatseller\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
