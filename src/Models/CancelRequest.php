@@ -6,7 +6,7 @@ namespace Carabostudio\Seatseller\Models;
 
 /**
  * Class CancelRequest
- * @package Carabostudio\SeatsellerManager\Models
+ * @package Carabostudio\Seatseller\Models
  */
 class CancelRequest
 {

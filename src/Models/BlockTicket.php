@@ -6,7 +6,7 @@ namespace Carabostudio\Seatseller\Models;
 
 /**
  * Class BlockTicket
- * @package Carabostudio\SeatsellerManager\Models
+ * @package Carabostudio\Seatseller\Models
  */
 class BlockTicket
 {

@@ -6,7 +6,7 @@ namespace Carabostudio\Seatseller\Models;
 
 /**
  * Interface Gender
- * @package Carabostudio\SeatsellerManager\Models
+ * @package Carabostudio\Seatseller\Models
  */
 interface Gender
 {

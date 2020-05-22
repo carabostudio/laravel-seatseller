@@ -2,9 +2,10 @@
 
 namespace Carabostudio\Seatseller\Models;
 
+
 /**
  * Class Passenger
- * @package Carabostudio\SeatsellerManager\Models
+ * @package Carabostudio\Seatseller\Models
  */
 class Passenger
 {

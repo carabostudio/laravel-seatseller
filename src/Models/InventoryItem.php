@@ -2,9 +2,10 @@
 
 namespace Carabostudio\Seatseller\Models;
 
+
 /**
  * Class InventoryItem
- * @package Carabostudio\SeatsellerManager\Models
+ * @package Carabostudio\Seatseller\Models
  */
 class InventoryItem
 {

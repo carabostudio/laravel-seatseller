@@ -17,9 +17,10 @@ use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Subscriber\Oauth\Oauth1;
 use Illuminate\Http\JsonResponse;
 
+
 /**
  * Class SeatsellerManager
- * @package Carabostudio\SeatsellerManager
+ * @package Carabostudio\Seatseller
  */
 class SeatsellerManager
 {

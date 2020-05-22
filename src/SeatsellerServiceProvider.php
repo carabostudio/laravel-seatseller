@@ -4,9 +4,10 @@ namespace Carabostudio\Seatseller;
 
 use Illuminate\Support\ServiceProvider;
 
+
 /**
  * Class SeatsellerServiceProvider
- * @package Carabostudio\SeatsellerManager
+ * @package Carabostudio\Seatseller
  */
 class SeatsellerServiceProvider extends ServiceProvider
 {
