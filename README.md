@@ -3,7 +3,7 @@ Laravel Seatseller
 
 Laravel Searseller was created by, and is maintained by [Axay Gadekar](https://github.com/itsaxay), and is a wrapper package for [Seatseller](http://seatseller.travel) api.
 
-![Banner](https://repository-images.githubusercontent.com/264668659/9ee91680-9b31-11ea-9fa0-7cf03660eb47)
+![Banner](https://repository-images.githubusercontent.com/264668659/a24ae200-9c98-11ea-914e-9a7bf91c1304)
 
 ## Installation
 
